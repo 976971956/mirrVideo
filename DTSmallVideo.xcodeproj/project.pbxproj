@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		142C447D1F0CFC7E00930050 /* 翻转摄像头.png in Resources */ = {isa = PBXBuildFile; fileRef = 142C446E1F0CFC7E00930050 /* 翻转摄像头.png */; };
+		142C447E1F0CFC7E00930050 /* 聚焦.png in Resources */ = {isa = PBXBuildFile; fileRef = 142C446F1F0CFC7E00930050 /* 聚焦.png */; };
+		142C447F1F0CFC7E00930050 /* 开闪光灯.png in Resources */ = {isa = PBXBuildFile; fileRef = 142C44701F0CFC7E00930050 /* 开闪光灯.png */; };
+		142C44801F0CFC7E00930050 /* 拍照.png in Resources */ = {isa = PBXBuildFile; fileRef = 142C44711F0CFC7E00930050 /* 拍照.png */; };
+		142C44811F0CFC7E00930050 /* 拍照按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 142C44721F0CFC7E00930050 /* 拍照按钮.png */; };
+		142C44821F0CFC7E00930050 /* 拍照按钮按下.png in Resources */ = {isa = PBXBuildFile; fileRef = 142C44731F0CFC7E00930050 /* 拍照按钮按下.png */; };
+		142C44831F0CFC7E00930050 /* 拍照按下.png in Resources */ = {isa = PBXBuildFile; fileRef = 142C44741F0CFC7E00930050 /* 拍照按下.png */; };
+		142C44841F0CFC7E00930050 /* 人脸识别.png in Resources */ = {isa = PBXBuildFile; fileRef = 142C44751F0CFC7E00930050 /* 人脸识别.png */; };
+		142C44851F0CFC7E00930050 /* 闪关灯.png in Resources */ = {isa = PBXBuildFile; fileRef = 142C44761F0CFC7E00930050 /* 闪关灯.png */; };
+		142C44861F0CFC7E00930050 /* 图片.png in Resources */ = {isa = PBXBuildFile; fileRef = 142C44771F0CFC7E00930050 /* 图片.png */; };
+		142C44871F0CFC7E00930050 /* 图片按下.png in Resources */ = {isa = PBXBuildFile; fileRef = 142C44781F0CFC7E00930050 /* 图片按下.png */; };
+		142C44881F0CFC7E00930050 /* 小视频.png in Resources */ = {isa = PBXBuildFile; fileRef = 142C44791F0CFC7E00930050 /* 小视频.png */; };
+		142C44891F0CFC7E00930050 /* 小视频按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 142C447A1F0CFC7E00930050 /* 小视频按钮.png */; };
+		142C448A1F0CFC7E00930050 /* 小视频按钮按下.png in Resources */ = {isa = PBXBuildFile; fileRef = 142C447B1F0CFC7E00930050 /* 小视频按钮按下.png */; };
+		142C448B1F0CFC7E00930050 /* 小视频按下.png in Resources */ = {isa = PBXBuildFile; fileRef = 142C447C1F0CFC7E00930050 /* 小视频按下.png */; };
+		1E67A4801E10C79E00AFD7A2 /* icon_save.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E67A47F1E10C79E00AFD7A2 /* icon_save.png */; };
+		1E67A4861E10E3AD00AFD7A2 /* DTRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E67A4851E10E3AD00AFD7A2 /* DTRecordViewController.m */; };
+		1E67A48A1E10F58400AFD7A2 /* DTvideoPic.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E67A4891E10F58400AFD7A2 /* DTvideoPic.png */; };
+		1E7D04301E078BE30064B530 /* icon_complete.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D042F1E078BE30064B530 /* icon_complete.png */; };
+		1E7D04331E07EC690064B530 /* icon_delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D04311E07EC690064B530 /* icon_delete.png */; };
+		1E7D04341E07EC690064B530 /* icon_backward.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D04321E07EC690064B530 /* icon_backward.png */; };
+		1E7D04381E0A692F0064B530 /* icon_restart.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D04371E0A692F0064B530 /* icon_restart.png */; };
+		1EBE47F51E0245BF00907668 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBE47F41E0245BF00907668 /* main.m */; };
+		1EBE47F81E0245BF00907668 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBE47F71E0245BF00907668 /* AppDelegate.m */; };
+		1EBE48001E0245BF00907668 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EBE47FF1E0245BF00907668 /* Assets.xcassets */; };
+		1EBE480E1E0245BF00907668 /* DTSmallVideoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBE480D1E0245BF00907668 /* DTSmallVideoTests.m */; };
+		1EBE48191E0245BF00907668 /* DTSmallVideoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBE48181E0245BF00907668 /* DTSmallVideoUITests.m */; };
+		1EBE482F1E0246F100907668 /* MianViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBE482E1E0246F100907668 /* MianViewController.m */; };
+		1EBE48321E02473A00907668 /* DTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBE48311E02473A00907668 /* DTNavigationController.m */; };
+		1EC9A5EE1E024E9F0057AC0B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EC9A5ED1E024E9F0057AC0B /* Launch Screen.storyboard */; };
+		1EC9A5F91E02791E0057AC0B /* icon_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EC9A5F81E02791E0057AC0B /* icon_back.png */; };
+		1EC9A5FB1E02798C0057AC0B /* icon_camera_switch.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EC9A5FA1E02798C0057AC0B /* icon_camera_switch.png */; };
+		1EC9A5FD1E0279A80057AC0B /* icon_camera_switch_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EC9A5FC1E0279A80057AC0B /* icon_camera_switch_1.png */; };
+		1EC9A6011E027BB30057AC0B /* icon_flash_auto.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EC9A5FE1E027BB30057AC0B /* icon_flash_auto.png */; };
+		1EC9A6021E027BB30057AC0B /* icon_flash.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EC9A5FF1E027BB30057AC0B /* icon_flash.png */; };
+		1EC9A6031E027BB30057AC0B /* icon_flash_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EC9A6001E027BB30057AC0B /* icon_flash_close.png */; };
+		1EC9A6061E0280540057AC0B /* DTRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC9A6051E0280540057AC0B /* DTRecordView.m */; };
+		1EC9A6091E028A940057AC0B /* icon_record_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EC9A6071E028A940057AC0B /* icon_record_0.png */; };
+		1EC9A60A1E028A940057AC0B /* icon_record_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EC9A6081E028A940057AC0B /* icon_record_1.png */; };
+		1EC9A6131E02B55D0057AC0B /* DTVideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC9A6121E02B55D0057AC0B /* DTVideoModel.m */; };
+		1EC9A6161E03D9200057AC0B /* RecordProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC9A6151E03D9200057AC0B /* RecordProgressView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1EBE480A1E0245BF00907668 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EBE47E81E0245BF00907668 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EBE47EF1E0245BF00907668;
+			remoteInfo = DTSmallVideo;
+		};
+		1EBE48151E0245BF00907668 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EBE47E81E0245BF00907668 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EBE47EF1E0245BF00907668;
+			remoteInfo = DTSmallVideo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		142C446E1F0CFC7E00930050 /* 翻转摄像头.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "翻转摄像头.png"; sourceTree = "<group>"; };
+		142C446F1F0CFC7E00930050 /* 聚焦.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "聚焦.png"; sourceTree = "<group>"; };
+		142C44701F0CFC7E00930050 /* 开闪光灯.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "开闪光灯.png"; sourceTree = "<group>"; };
+		142C44711F0CFC7E00930050 /* 拍照.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "拍照.png"; sourceTree = "<group>"; };
+		142C44721F0CFC7E00930050 /* 拍照按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "拍照按钮.png"; sourceTree = "<group>"; };
+		142C44731F0CFC7E00930050 /* 拍照按钮按下.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "拍照按钮按下.png"; sourceTree = "<group>"; };
+		142C44741F0CFC7E00930050 /* 拍照按下.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "拍照按下.png"; sourceTree = "<group>"; };
+		142C44751F0CFC7E00930050 /* 人脸识别.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "人脸识别.png"; sourceTree = "<group>"; };
+		142C44761F0CFC7E00930050 /* 闪关灯.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "闪关灯.png"; sourceTree = "<group>"; };
+		142C44771F0CFC7E00930050 /* 图片.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图片.png"; sourceTree = "<group>"; };
+		142C44781F0CFC7E00930050 /* 图片按下.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图片按下.png"; sourceTree = "<group>"; };
+		142C44791F0CFC7E00930050 /* 小视频.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "小视频.png"; sourceTree = "<group>"; };
+		142C447A1F0CFC7E00930050 /* 小视频按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "小视频按钮.png"; sourceTree = "<group>"; };
+		142C447B1F0CFC7E00930050 /* 小视频按钮按下.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "小视频按钮按下.png"; sourceTree = "<group>"; };
+		142C447C1F0CFC7E00930050 /* 小视频按下.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "小视频按下.png"; sourceTree = "<group>"; };
+		1E67A47F1E10C79E00AFD7A2 /* icon_save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_save.png; sourceTree = "<group>"; };
+		1E67A4841E10E3AD00AFD7A2 /* DTRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTRecordViewController.h; sourceTree = "<group>"; };
+		1E67A4851E10E3AD00AFD7A2 /* DTRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTRecordViewController.m; sourceTree = "<group>"; };
+		1E67A4891E10F58400AFD7A2 /* DTvideoPic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DTvideoPic.png; sourceTree = "<group>"; };
+		1E7D042F1E078BE30064B530 /* icon_complete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_complete.png; sourceTree = "<group>"; };
+		1E7D04311E07EC690064B530 /* icon_delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_delete.png; sourceTree = "<group>"; };
+		1E7D04321E07EC690064B530 /* icon_backward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_backward.png; sourceTree = "<group>"; };
+		1E7D04371E0A692F0064B530 /* icon_restart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_restart.png; sourceTree = "<group>"; };
+		1EBE47F01E0245BF00907668 /* DTSmallVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DTSmallVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EBE47F41E0245BF00907668 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1EBE47F61E0245BF00907668 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1EBE47F71E0245BF00907668 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1EBE47FF1E0245BF00907668 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1EBE48041E0245BF00907668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EBE48091E0245BF00907668 /* DTSmallVideoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DTSmallVideoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EBE480D1E0245BF00907668 /* DTSmallVideoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTSmallVideoTests.m; sourceTree = "<group>"; };
+		1EBE480F1E0245BF00907668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EBE48141E0245BF00907668 /* DTSmallVideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DTSmallVideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EBE48181E0245BF00907668 /* DTSmallVideoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTSmallVideoUITests.m; sourceTree = "<group>"; };
+		1EBE481A1E0245BF00907668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EBE48261E0245D700907668 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		1EBE482D1E0246F100907668 /* MianViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MianViewController.h; sourceTree = "<group>"; };
+		1EBE482E1E0246F100907668 /* MianViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MianViewController.m; sourceTree = "<group>"; };
+		1EBE48301E02473A00907668 /* DTNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTNavigationController.h; sourceTree = "<group>"; };
+		1EBE48311E02473A00907668 /* DTNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTNavigationController.m; sourceTree = "<group>"; };
+		1EC9A5ED1E024E9F0057AC0B /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		1EC9A5F71E0268FA0057AC0B /* SmallVideoHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmallVideoHeader.h; sourceTree = "<group>"; };
+		1EC9A5F81E02791E0057AC0B /* icon_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_back.png; sourceTree = "<group>"; };
+		1EC9A5FA1E02798C0057AC0B /* icon_camera_switch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_camera_switch.png; sourceTree = "<group>"; };
+		1EC9A5FC1E0279A80057AC0B /* icon_camera_switch_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_camera_switch_1.png; sourceTree = "<group>"; };
+		1EC9A5FE1E027BB30057AC0B /* icon_flash_auto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_flash_auto.png; sourceTree = "<group>"; };
+		1EC9A5FF1E027BB30057AC0B /* icon_flash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_flash.png; sourceTree = "<group>"; };
+		1EC9A6001E027BB30057AC0B /* icon_flash_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_flash_close.png; sourceTree = "<group>"; };
+		1EC9A6041E0280540057AC0B /* DTRecordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTRecordView.h; sourceTree = "<group>"; };
+		1EC9A6051E0280540057AC0B /* DTRecordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTRecordView.m; sourceTree = "<group>"; };
+		1EC9A6071E028A940057AC0B /* icon_record_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_record_0.png; sourceTree = "<group>"; };
+		1EC9A6081E028A940057AC0B /* icon_record_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_record_1.png; sourceTree = "<group>"; };
+		1EC9A6111E02B55D0057AC0B /* DTVideoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTVideoModel.h; sourceTree = "<group>"; };
+		1EC9A6121E02B55D0057AC0B /* DTVideoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTVideoModel.m; sourceTree = "<group>"; };
+		1EC9A6141E03D9200057AC0B /* RecordProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordProgressView.h; sourceTree = "<group>"; };
+		1EC9A6151E03D9200057AC0B /* RecordProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordProgressView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EBE47ED1E0245BF00907668 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EBE48061E0245BF00907668 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EBE48111E0245BF00907668 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EBE47E71E0245BF00907668 = {
+			isa = PBXGroup;
+			children = (
+				1E67A4891E10F58400AFD7A2 /* DTvideoPic.png */,
+				1EBE47F21E0245BF00907668 /* DTSmallVideo */,
+				1EBE480C1E0245BF00907668 /* DTSmallVideoTests */,
+				1EBE48171E0245BF00907668 /* DTSmallVideoUITests */,
+				1EBE47F11E0245BF00907668 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1EBE47F11E0245BF00907668 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EBE47F01E0245BF00907668 /* DTSmallVideo.app */,
+				1EBE48091E0245BF00907668 /* DTSmallVideoTests.xctest */,
+				1EBE48141E0245BF00907668 /* DTSmallVideoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EBE47F21E0245BF00907668 /* DTSmallVideo */ = {
+			isa = PBXGroup;
+			children = (
+				1EC9A5F31E024F7B0057AC0B /* DT-SmallVideoSDK */,
+				1EBE48271E02469200907668 /* Images */,
+				1EBE482B1E02469200907668 /* ViewControllers */,
+				1EBE482D1E0246F100907668 /* MianViewController.h */,
+				1EBE482E1E0246F100907668 /* MianViewController.m */,
+				1EBE47FF1E0245BF00907668 /* Assets.xcassets */,
+				1EBE48041E0245BF00907668 /* Info.plist */,
+				1EBE47F31E0245BF00907668 /* Supporting Files */,
+			);
+			path = DTSmallVideo;
+			sourceTree = "<group>";
+		};
+		1EBE47F31E0245BF00907668 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EBE47F61E0245BF00907668 /* AppDelegate.h */,
+				1EBE47F71E0245BF00907668 /* AppDelegate.m */,
+				1EBE47F41E0245BF00907668 /* main.m */,
+				1EBE48261E0245D700907668 /* PrefixHeader.pch */,
+				1EC9A5ED1E024E9F0057AC0B /* Launch Screen.storyboard */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1EBE480C1E0245BF00907668 /* DTSmallVideoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1EBE480D1E0245BF00907668 /* DTSmallVideoTests.m */,
+				1EBE480F1E0245BF00907668 /* Info.plist */,
+			);
+			path = DTSmallVideoTests;
+			sourceTree = "<group>";
+		};
+		1EBE48171E0245BF00907668 /* DTSmallVideoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1EBE48181E0245BF00907668 /* DTSmallVideoUITests.m */,
+				1EBE481A1E0245BF00907668 /* Info.plist */,
+			);
+			path = DTSmallVideoUITests;
+			sourceTree = "<group>";
+		};
+		1EBE48271E02469200907668 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				142C446E1F0CFC7E00930050 /* 翻转摄像头.png */,
+				142C446F1F0CFC7E00930050 /* 聚焦.png */,
+				142C44701F0CFC7E00930050 /* 开闪光灯.png */,
+				142C44711F0CFC7E00930050 /* 拍照.png */,
+				142C44721F0CFC7E00930050 /* 拍照按钮.png */,
+				142C44731F0CFC7E00930050 /* 拍照按钮按下.png */,
+				142C44741F0CFC7E00930050 /* 拍照按下.png */,
+				142C44751F0CFC7E00930050 /* 人脸识别.png */,
+				142C44761F0CFC7E00930050 /* 闪关灯.png */,
+				142C44771F0CFC7E00930050 /* 图片.png */,
+				142C44781F0CFC7E00930050 /* 图片按下.png */,
+				142C44791F0CFC7E00930050 /* 小视频.png */,
+				142C447A1F0CFC7E00930050 /* 小视频按钮.png */,
+				142C447B1F0CFC7E00930050 /* 小视频按钮按下.png */,
+				142C447C1F0CFC7E00930050 /* 小视频按下.png */,
+				1E67A47F1E10C79E00AFD7A2 /* icon_save.png */,
+				1E7D04371E0A692F0064B530 /* icon_restart.png */,
+				1E7D04311E07EC690064B530 /* icon_delete.png */,
+				1E7D04321E07EC690064B530 /* icon_backward.png */,
+				1EC9A5F81E02791E0057AC0B /* icon_back.png */,
+				1EC9A5FA1E02798C0057AC0B /* icon_camera_switch.png */,
+				1EC9A5FC1E0279A80057AC0B /* icon_camera_switch_1.png */,
+				1EC9A5FE1E027BB30057AC0B /* icon_flash_auto.png */,
+				1EC9A5FF1E027BB30057AC0B /* icon_flash.png */,
+				1EC9A6001E027BB30057AC0B /* icon_flash_close.png */,
+				1EC9A6071E028A940057AC0B /* icon_record_0.png */,
+				1EC9A6081E028A940057AC0B /* icon_record_1.png */,
+				1E7D042F1E078BE30064B530 /* icon_complete.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		1EBE482B1E02469200907668 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1EC9A5EF1E024EFF0057AC0B /* BaseViewControllers */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1EC9A5EF1E024EFF0057AC0B /* BaseViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1EBE48301E02473A00907668 /* DTNavigationController.h */,
+				1EBE48311E02473A00907668 /* DTNavigationController.m */,
+			);
+			name = BaseViewControllers;
+			sourceTree = "<group>";
+		};
+		1EC9A5F31E024F7B0057AC0B /* DT-SmallVideoSDK */ = {
+			isa = PBXGroup;
+			children = (
+				1EC9A5F71E0268FA0057AC0B /* SmallVideoHeader.h */,
+				1EC9A6041E0280540057AC0B /* DTRecordView.h */,
+				1EC9A6051E0280540057AC0B /* DTRecordView.m */,
+				1EC9A6111E02B55D0057AC0B /* DTVideoModel.h */,
+				1EC9A6121E02B55D0057AC0B /* DTVideoModel.m */,
+				1EC9A6141E03D9200057AC0B /* RecordProgressView.h */,
+				1EC9A6151E03D9200057AC0B /* RecordProgressView.m */,
+				1E67A4841E10E3AD00AFD7A2 /* DTRecordViewController.h */,
+				1E67A4851E10E3AD00AFD7A2 /* DTRecordViewController.m */,
+			);
+			path = "DT-SmallVideoSDK";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EBE47EF1E0245BF00907668 /* DTSmallVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EBE481D1E0245BF00907668 /* Build configuration list for PBXNativeTarget "DTSmallVideo" */;
+			buildPhases = (
+				1EBE47EC1E0245BF00907668 /* Sources */,
+				1EBE47ED1E0245BF00907668 /* Frameworks */,
+				1EBE47EE1E0245BF00907668 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DTSmallVideo;
+			productName = DTSmallVideo;
+			productReference = 1EBE47F01E0245BF00907668 /* DTSmallVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1EBE48081E0245BF00907668 /* DTSmallVideoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EBE48201E0245BF00907668 /* Build configuration list for PBXNativeTarget "DTSmallVideoTests" */;
+			buildPhases = (
+				1EBE48051E0245BF00907668 /* Sources */,
+				1EBE48061E0245BF00907668 /* Frameworks */,
+				1EBE48071E0245BF00907668 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EBE480B1E0245BF00907668 /* PBXTargetDependency */,
+			);
+			name = DTSmallVideoTests;
+			productName = DTSmallVideoTests;
+			productReference = 1EBE48091E0245BF00907668 /* DTSmallVideoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1EBE48131E0245BF00907668 /* DTSmallVideoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EBE48231E0245BF00907668 /* Build configuration list for PBXNativeTarget "DTSmallVideoUITests" */;
+			buildPhases = (
+				1EBE48101E0245BF00907668 /* Sources */,
+				1EBE48111E0245BF00907668 /* Frameworks */,
+				1EBE48121E0245BF00907668 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EBE48161E0245BF00907668 /* PBXTargetDependency */,
+			);
+			name = DTSmallVideoUITests;
+			productName = DTSmallVideoUITests;
+			productReference = 1EBE48141E0245BF00907668 /* DTSmallVideoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EBE47E81E0245BF00907668 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "quan cui";
+				TargetAttributes = {
+					1EBE47EF1E0245BF00907668 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = TKB4424AJT;
+						ProvisioningStyle = Automatic;
+					};
+					1EBE48081E0245BF00907668 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 2KHTZC94G5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1EBE47EF1E0245BF00907668;
+					};
+					1EBE48131E0245BF00907668 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 2KHTZC94G5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1EBE47EF1E0245BF00907668;
+					};
+				};
+			};
+			buildConfigurationList = 1EBE47EB1E0245BF00907668 /* Build configuration list for PBXProject "DTSmallVideo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EBE47E71E0245BF00907668;
+			productRefGroup = 1EBE47F11E0245BF00907668 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EBE47EF1E0245BF00907668 /* DTSmallVideo */,
+				1EBE48081E0245BF00907668 /* DTSmallVideoTests */,
+				1EBE48131E0245BF00907668 /* DTSmallVideoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EBE47EE1E0245BF00907668 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				142C44861F0CFC7E00930050 /* 图片.png in Resources */,
+				142C448A1F0CFC7E00930050 /* 小视频按钮按下.png in Resources */,
+				1EC9A6011E027BB30057AC0B /* icon_flash_auto.png in Resources */,
+				142C44871F0CFC7E00930050 /* 图片按下.png in Resources */,
+				142C448B1F0CFC7E00930050 /* 小视频按下.png in Resources */,
+				1EC9A5F91E02791E0057AC0B /* icon_back.png in Resources */,
+				1EC9A6031E027BB30057AC0B /* icon_flash_close.png in Resources */,
+				1EC9A60A1E028A940057AC0B /* icon_record_1.png in Resources */,
+				1EC9A6021E027BB30057AC0B /* icon_flash.png in Resources */,
+				142C44801F0CFC7E00930050 /* 拍照.png in Resources */,
+				142C447E1F0CFC7E00930050 /* 聚焦.png in Resources */,
+				1EC9A6091E028A940057AC0B /* icon_record_0.png in Resources */,
+				1E67A4801E10C79E00AFD7A2 /* icon_save.png in Resources */,
+				142C44831F0CFC7E00930050 /* 拍照按下.png in Resources */,
+				1E7D04381E0A692F0064B530 /* icon_restart.png in Resources */,
+				1E7D04341E07EC690064B530 /* icon_backward.png in Resources */,
+				142C44851F0CFC7E00930050 /* 闪关灯.png in Resources */,
+				1EC9A5EE1E024E9F0057AC0B /* Launch Screen.storyboard in Resources */,
+				142C44881F0CFC7E00930050 /* 小视频.png in Resources */,
+				142C44821F0CFC7E00930050 /* 拍照按钮按下.png in Resources */,
+				142C44841F0CFC7E00930050 /* 人脸识别.png in Resources */,
+				142C447D1F0CFC7E00930050 /* 翻转摄像头.png in Resources */,
+				1E7D04301E078BE30064B530 /* icon_complete.png in Resources */,
+				1EBE48001E0245BF00907668 /* Assets.xcassets in Resources */,
+				142C447F1F0CFC7E00930050 /* 开闪光灯.png in Resources */,
+				1E7D04331E07EC690064B530 /* icon_delete.png in Resources */,
+				1EC9A5FB1E02798C0057AC0B /* icon_camera_switch.png in Resources */,
+				1EC9A5FD1E0279A80057AC0B /* icon_camera_switch_1.png in Resources */,
+				142C44811F0CFC7E00930050 /* 拍照按钮.png in Resources */,
+				1E67A48A1E10F58400AFD7A2 /* DTvideoPic.png in Resources */,
+				142C44891F0CFC7E00930050 /* 小视频按钮.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EBE48071E0245BF00907668 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EBE48121E0245BF00907668 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EBE47EC1E0245BF00907668 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EBE482F1E0246F100907668 /* MianViewController.m in Sources */,
+				1EBE47F81E0245BF00907668 /* AppDelegate.m in Sources */,
+				1EBE47F51E0245BF00907668 /* main.m in Sources */,
+				1EBE48321E02473A00907668 /* DTNavigationController.m in Sources */,
+				1EC9A6061E0280540057AC0B /* DTRecordView.m in Sources */,
+				1E67A4861E10E3AD00AFD7A2 /* DTRecordViewController.m in Sources */,
+				1EC9A6161E03D9200057AC0B /* RecordProgressView.m in Sources */,
+				1EC9A6131E02B55D0057AC0B /* DTVideoModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EBE48051E0245BF00907668 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EBE480E1E0245BF00907668 /* DTSmallVideoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EBE48101E0245BF00907668 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EBE48191E0245BF00907668 /* DTSmallVideoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EBE480B1E0245BF00907668 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EBE47EF1E0245BF00907668 /* DTSmallVideo */;
+			targetProxy = 1EBE480A1E0245BF00907668 /* PBXContainerItemProxy */;
+		};
+		1EBE48161E0245BF00907668 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EBE47EF1E0245BF00907668 /* DTSmallVideo */;
+			targetProxy = 1EBE48151E0245BF00907668 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1EBE481B1E0245BF00907668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1EBE481C1E0245BF00907668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EBE481E1E0245BF00907668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TKB4424AJT;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DTSmallVideo/PrefixHeader.pch";
+				INFOPLIST_FILE = DTSmallVideo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DreamTree-Tech.DTSmallVideo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1EBE481F1E0245BF00907668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TKB4424AJT;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DTSmallVideo/PrefixHeader.pch";
+				INFOPLIST_FILE = DTSmallVideo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DreamTree-Tech.DTSmallVideo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1EBE48211E0245BF00907668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2KHTZC94G5;
+				INFOPLIST_FILE = DTSmallVideoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DreamTree-Tech.DTSmallVideoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DTSmallVideo.app/DTSmallVideo";
+			};
+			name = Debug;
+		};
+		1EBE48221E0245BF00907668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2KHTZC94G5;
+				INFOPLIST_FILE = DTSmallVideoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DreamTree-Tech.DTSmallVideoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DTSmallVideo.app/DTSmallVideo";
+			};
+			name = Release;
+		};
+		1EBE48241E0245BF00907668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2KHTZC94G5;
+				INFOPLIST_FILE = DTSmallVideoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DreamTree-Tech.DTSmallVideoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DTSmallVideo;
+			};
+			name = Debug;
+		};
+		1EBE48251E0245BF00907668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2KHTZC94G5;
+				INFOPLIST_FILE = DTSmallVideoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DreamTree-Tech.DTSmallVideoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DTSmallVideo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EBE47EB1E0245BF00907668 /* Build configuration list for PBXProject "DTSmallVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EBE481B1E0245BF00907668 /* Debug */,
+				1EBE481C1E0245BF00907668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EBE481D1E0245BF00907668 /* Build configuration list for PBXNativeTarget "DTSmallVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EBE481E1E0245BF00907668 /* Debug */,
+				1EBE481F1E0245BF00907668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EBE48201E0245BF00907668 /* Build configuration list for PBXNativeTarget "DTSmallVideoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EBE48211E0245BF00907668 /* Debug */,
+				1EBE48221E0245BF00907668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EBE48231E0245BF00907668 /* Build configuration list for PBXNativeTarget "DTSmallVideoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EBE48241E0245BF00907668 /* Debug */,
+				1EBE48251E0245BF00907668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EBE47E81E0245BF00907668 /* Project object */;
+}
